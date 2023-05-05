@@ -1,49 +1,70 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
 
 body {
-    background-image: url("./img/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
+  background-image: url("./img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 #main_container {
-    width: 100%;
-    height: 100%;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
-
 
 #header_image {
-    border-radius: 50%;
-    border: 5px solid #491717 !important;
-    box-shadow: 9px 3px 3px black;
-    margin-top: 16px;
-    width: 470px;
-    height: 470px;
+  border-radius: 50%;
+  border: 5px solid #491717 !important;
+  box-shadow: 9px 3px 3px black;
+  margin-top: 16px;
+  width: 470px;
+  height: 470px;
 }
 
-header h1{
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-family: 'Monoton', cursive;
-    font-size: 42px;
-    box-sizing: border-box;
+header h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: "Monoton", cursive;
+  font-size: 90px;
+  box-sizing: border-box;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
-main{
-    background-color: aqua;
-    box-sizing: border-box;
-    padding: 0% 9%;
-    height: 100vh;
-    width: 100vw;
+main {
+  box-sizing: border-box;
+  padding: 3% 9%;
+  height: 100vh;
+  width: 100vw;
 }
 
+.main_section {
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#parchment {
+  /*position: absolute; 
+    display: flex;
+    width: 75%;
+   /* min-height: calc((1vw + 1vh) * 75);
+    /* center page with absolute position */
+  /*top: 0%; left: 50%; transform: translate(-50%, 0);*/
+  margin: 2em 0;
+  padding: 4em;
+  box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+  background: #fffef0;
+  filter: url(#wavy2);
+}
